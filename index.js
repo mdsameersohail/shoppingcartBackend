@@ -16,7 +16,7 @@ const USER= process.env.DB_USER
 const PASSWORD=process.env.DB_PASS
 const DATABASE=process.env.DB_DATABASE
 const BASE_URL=process.env.BASE_URL
-const PORT=process.env.PORT
+const PORT=process.env.PORT || 8800
 const USERS_URL=process.env.USERS_URL
 
 const db= mysql.createConnection({
